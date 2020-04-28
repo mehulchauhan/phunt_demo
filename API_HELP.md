@@ -1,12 +1,6 @@
-# Public APIs [![Build Status](https://api.travis-ci.org/public-apis/public-apis.svg)](https://travis-ci.org/public-apis/public-apis)
+# Public APIs
 
 A collective list of free APIs for use in software and web development.
-
-A public API for this project can be found [here](https://github.com/davemachado/public-api)!
-
-For information on contributing to this project, please see the [contributing guide](.github/CONTRIBUTING.md).
-
-Please note a passing build status indicates all listed APIs are available since the last update. A failing build status indicates that 1 or more services may be unavailable at the moment.
 
 ## Index
 
@@ -922,3 +916,5 @@ API | Description | Auth | HTTPS | CORS |
 | [Yahoo! Weather](https://developer.yahoo.com/weather/) | Weather | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
+
+**###[REFERENCE:](https://github.com/davemachado/public-api)** 
