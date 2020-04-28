@@ -917,4 +917,4 @@ API | Description | Auth | HTTPS | CORS |
 
 **[⬆ Back to Index](#index)**
 
-**###[REFERENCE:](https://github.com/davemachado/public-api)** 
+**[REFERENCE:](https://github.com/davemachado/public-api)** 
