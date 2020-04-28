@@ -1,19 +1,22 @@
 //set the mode to production.
-import CleanWebpackPlugin from "clean-webpack-plugin";
+// import { CleanWebpackPlugin } from 'clean-webpack-plugin';
+// const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-import paths from "./paths";
+import paths from './paths';
 
 module.exports = {
-  mode: "production",
+  mode: 'production',
   output: {
     filename: `${paths.jsFolder}/[name].[hash].js`,
     path: paths.outputPath,
-    chunkFilename: "[name].[chunkhash].js",
+    chunkFilename: '[name].[chunkhash].js',
   },
   plugins: [
-    new CleanWebpackPlugin([paths.outputPath.split("/").pop()], {
+    new CleanWebpackPlugin({
       root: paths.root,
     }),
   ],
-  devtool: "source-map",
+  devtool: 'source-map',
 };
+//[paths.outputPath.split('/').pop()],
